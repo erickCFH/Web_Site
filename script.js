@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Desenhista", "Projetista", "Developer", "Freelancer"],
+        strings: ["Desenhista", "Analista de Sistemas", "Developer", "T.I"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Focado", "Engajado", "Determinado", "Erick",],
+        strings: ["Focado", "Engajado", "Determinado", "Prazer, Erick!",],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -79,7 +79,7 @@ const fotos = document.querySelectorAll(".foto")
             modal.classList.add("modalShow")
             document.getElementById("foto-grande").src=el.src
         }
-    });
+    })
 
     document.getElementById("btn-close").addEventListener("click",function(){
         modal.classList.remove("modalShow")
